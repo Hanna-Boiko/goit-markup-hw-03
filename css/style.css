@@ -37,6 +37,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -150,6 +154,7 @@ button {
 .hero-button {
   border-style: none;
   border: 4px;
+  border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -251,7 +256,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .team-list-text {
   font-weight: 400;
@@ -292,6 +297,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  row-gap: 48px;
   gap: 24px;
 }
 
@@ -304,7 +310,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
