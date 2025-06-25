@@ -131,8 +131,7 @@ button {
 /* hero */
 
 .hero {
-  padding-top: 188px;
-  padding-bottom: 195px;
+  padding: 188px 0;
   background: #2e2f42;
 }
 
@@ -149,7 +148,8 @@ button {
 }
 
 .hero-button {
-  border-radius: 4px;
+  border-style: none;
+  border: 4px;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -175,12 +175,27 @@ button {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .feauters-list {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .feauters-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .feauters-list-title {
@@ -227,6 +242,7 @@ button {
 
 .team-list-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -235,6 +251,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .team-list-text {
   font-weight: 400;
@@ -248,7 +265,7 @@ button {
 .team-text-wrapper {
   text-align: center;
   margin: 0 auto;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 /* portfolio */
@@ -287,6 +304,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .portfolio-text {
