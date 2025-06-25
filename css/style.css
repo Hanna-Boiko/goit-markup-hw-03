@@ -38,8 +38,7 @@ address {
 }
 
 .container {
-  max-width: 1158px;
-  width: 100%;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -152,7 +151,7 @@ button {
 .hero-button {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   font-weight: 500;
   font-size: 16px;
@@ -274,6 +273,7 @@ button {
 
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
